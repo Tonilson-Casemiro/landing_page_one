@@ -1,0 +1,189 @@
+
+
+
+section#section-about-us{
+ max-width: 1200px;
+ /* border: 1px solid red; */
+ display: flex;
+ gap: 1.5rem;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ padding-top: 8rem;
+}
+
+
+
+
+@media(max-width: 1200px){
+ section#section-about-us{
+  flex-direction: column;
+ }
+}
+
+
+
+
+.container-images-about{
+ position: relative;
+ width: 50%;
+ width: 520px;
+ height: 460px;
+}
+
+
+@media(max-width: 600px){
+ .container-images-about{
+  width: 100%;
+ }
+}
+
+.container-images-about img{
+ position: absolute;
+ /* height: 450px; */
+ height: 90%;
+}
+
+
+
+
+
+#symbol-1{
+ width: 30px;
+ height: 30px;
+ top: .5rem;
+ right: 8.5rem;
+ transition: all .3s;
+ animation: spin 3s ease-in-out alternate infinite;
+}
+
+
+#symbol-2{
+ width: 100px;
+ height: 100px;
+ bottom: 0;
+ left: 0;
+ animation: motion-down-top 2s ease-in-out alternate infinite;
+}
+
+#symbol-3{
+ width: 30px;
+ height: 30px;
+ top: 0;
+ right: .5rem;
+ animation: motion-right-left 2s ease-in-out alternate infinite;
+}
+
+
+#symbol-4{
+
+ transform: translate(-30rem,10rem); 
+}
+
+
+
+#symbol-5{
+ height: 100%;
+ width: 100%;
+}
+
+
+
+.container-images-about img#image-about-up{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ z-index: 1;
+ width: 310px;
+ border-radius: 10px;
+ /* z-index: 1; */
+
+}
+
+.container-images-about img#image-about-down{
+ border-radius: 10px;
+ left: 2rem;
+}
+
+
+@media(max-width: 600px){
+ .container-images-about img#image-about-up{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* z-index: 1; */
+ 
+ }
+
+ .container-images-about img#image-about-down{
+  display: none;
+ }
+ 
+}
+
+
+.container-content-about-us{
+ display: flex;
+ flex-direction: column;
+ gap: .6rem;
+ width: 50%;
+}
+
+@media(max-width: 1200px){
+ .container-content-about-us{
+  width: 500px;
+ }
+}
+
+@media(max-width: 500px){
+ .container-content-about-us{
+  width: 100%;
+ }
+}
+
+
+
+.container-content-about-us a{
+ text-decoration: none;
+ padding: 1rem .5rem;
+ background-color: var(--color-primary);
+ color: white;
+ text-transform: uppercase;
+ font-size: .7em;
+ border-radius: 5px;
+ width: 10rem;
+ text-align: center;
+ font-family: Poppins-Medium;
+ 
+}
+
+
+
+
+@keyframes spin{
+ from{
+  transform: rotate(0turn);
+ }
+ to{
+  transform: rotate(1turn);
+  }
+}
+
+
+
+@keyframes motion-right-left{
+ from{
+  transform: translateX(-2rem);
+ }to{
+  transform: translateX(0);
+ }
+}
+
+
+@keyframes motion-down-top{
+ from{
+  transform: translateY(-2rem);
+ }to{
+  transform: translateY(0);
+ }
+}

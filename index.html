@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Site de venda - Landing Page</title>
+
+ <!-- FontAwesome -->
+ <link rel="stylesheet" href="src/bibliotecas/fontawesome/css/all.min.css">
+ <!-- Global styles -->
+ <link rel="stylesheet" href="src/public/styles/global.css">
+ <!-- Loading -->
+ <link rel="stylesheet" href="src/public/styles/loader.css">
+ <!-- Header -->
+ <link rel="stylesheet" href="src/public/styles/header.css">
+ <!-- contacts in header -->
+ <link rel="stylesheet" href="src/public/styles/contents_in_header.css">
+ <!-- button back to top -->
+ <link rel="stylesheet" href="src/public/styles/btnBackToTop.css">
+ <!-- Animacion scroll -->
+ <link rel="stylesheet" href="src/public/styles/observer_animacion_scroll.css">
+ <!-- Indicator -->
+  <link rel="stylesheet" href="src/public/styles/indicator.css">
+
+  <!-- Css owl-carousel -->
+  <link rel="stylesheet" href="src/bibliotecas/owlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="src/bibliotecas/owlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
+ <!-- Pages -->
+ <link rel="stylesheet" href="src/styles/about.css">
+ <link rel="stylesheet" href="src/styles/accountants.css">
+ <link rel="stylesheet" href="src/styles/services.css">
+ <link rel="stylesheet" href="src/styles/choose_us.css">
+ <link rel="stylesheet" href="src/styles/works.css">
+ <link rel="stylesheet" href="src/styles/partners.css">
+ <link rel="stylesheet" href="src/styles/our-team.css">
+ <link rel="stylesheet" href="src/styles/contacts.css">
+ <link rel="stylesheet" href="src/styles/footer.css">
+ <link rel="stylesheet" href="src/styles/modal-video.css">
+ <link rel="stylesheet" href="src/styles/testimonials.css">
+
+</head>
+<body>
+
+ <!-- header -->
+ <header>
+
+  <div class="indicator"></div>
+  <!-- Menu de navegação -->
+  <div id="container-nav">
+    <!-- Logo -->
+    <div id="container-logo">
+      <a href="#">
+        <img src="images/smooth-models.png" alt="">
+        <span>Logo</span>
+      </a>
+    </div>
+
+
+    <!-- Itens de Menu desktop-->
+    <div id="container-menu-desktop">
+      <a href="#section-about-us" class="item-menu-desktop">Sobre Nós</a>
+      <a href="#section-services" class="item-menu-desktop">Serviços</a>
+      <a href="#section-choose-us" class="item-menu-desktop">Escolha-nos</a>
+      <a href="#section_works" class="item-menu-desktop">Trabalhos</a>
+      <a href="#section-our-team" class="item-menu-desktop">Nossa Equipe</a>
+      <a href="#section-testimonials" class="item-menu-desktop">Depoimentos</a>
+      <a href="#section-contacts" class="item-menu-button">
+       Contactos
+      </a>
+    </div>
+
+   
+    <!-- Itens de menu mobile -->
+    <div class="overlay-menu-mobile">
+      
+      <!-- Button close menu mobile -->
+      <i class="fa-solid fa-circle-xmark" onclick="closeNav()"></i>
+
+      <div class="itens-menu-mobile">
+        <a href="#section-about-us" class="item-menu-mobile">Sobre Nós</a>
+        <a href="#section-services" class="item-menu-mobile">Serviços</a>
+        <a href="#section-choose-us" class="item-menu-mobile">Escolha-nos</a>
+        <a href="#section_works" class="item-menu-mobile">Trabalhos</a>
+        <a href="#section-our-team" class="item-menu-mobile">Nossa Equipe</a>
+        <a href="#section-testimonials" class="item-menu-mobile">Depoimentos</a>
+        <a href="#section-contacts" class="item-menu-mobile">Contactos</a>
+      </div>
+    </div>
+
+    <!-- button open menu mobile  -->
+    <div class="container-icon-openNav" onclick="openNav()">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+  </div>
+
+ </header>
+
+
+ <!-- Main -->
+ <main>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loading"></div>
+    </div>
+
+
+    <!-- Content in top or header -->
+    <section class="contents-in-header">
+      <img src="src/assets/images/slider-bg-1.jpg" alt="" class="image-selected">
+      <img src="src/assets/images/slider-bg-1a.jpg" alt="" >
+      <img src="src/assets/images/slider-bg-1b.jpg" alt="">
+      <div class="background-transparent"></div>
+      <div class="contents">
+        <p class="text-big animacion-motionY-to-top-off">
+          Vendas 
+          <strong>de produtos</strong> 
+          exclusivos
+        </p>
+        <p class="text-small animacion-motionY-to-top-off">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, in id! Repellat commodi necessitatibus temporibus, facere quia aspernatur totam.
+        </p>
+        <a href="#section-about-us" class="animacion-motionY-to-top-off">Saber Mais</a>
+      </div>
+    </section>
+    
+    <!-- Section About us -->
+    <section id="section-about-us">
+      <div class="container-images-about">
+        <img src="src/assets/images/about us/symbol-4.png" alt="" id="symbol-4">
+        <img src="src/assets/images/about us/symbol-4.png" alt="" id="symbol-5">
+        <img src="src/assets/images/about us/symbol-1.png" alt="" id="symbol-1">
+        <img src="src/assets/images/about us/symbol-3.png" alt="" id="symbol-3">
+        <img src="src/assets/images/about us/symbol-2.png" alt="" id="symbol-2">
+        <img src="src/assets/images/about us/about-img-2.jpg" alt="" id="image-about-down" class="animacion-motionY-to-top-off">
+        <img src="src/assets/images/about us/about-img-1.jpg" alt="" id="image-about-up" class="animacion-motionX-to-right-off">
+      </div>
+      <div class="container-content-about-us">
+        <h1 class="animacion_opacity-off">Sobre Nós</h1>
+        <h2 class="animacion_opacity-off">Nós oferemos sempre o melhor para os nossos clientes</h2>
+        <p class="more-content animacion_opacity-off">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores mollitia nesciunt quidem possimus ipsam assumenda natus, dolorum velit consequuntur deserunt quae sit sequi maiores aliquam atque id ab. Facilis, atque? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta ratione velit ipsum maiores et, officiis voluptates aut at quas ullam mollitia nesciunt doloribus, in saepe? Quibusdam, distinctio! Enim, mollitia aliquam.
+        </p>
+        <a href="#section_works" class="animacion_opacity-off">
+          Nossos Projectos
+        </a>
+      </div>
+    </section>
+
+    <!-- section accountants -->
+    <section id="section-accountants">
+      <div class="animacion_opacity-off">
+        <span class="number">
+          50+
+        </span>
+        <p>
+          Clientes Satisfeitos
+        </p>
+      </div>
+
+      <div class="animacion_opacity-off">
+        <span class="number">
+          20+
+        </span>
+        <p>
+          Projectos feitos
+        </p>
+      </div>
+
+      <div class="animacion_opacity-off">
+        <span class="number">
+          100+
+        </span>
+        <p>
+          Vendas dos Produtos
+        </p>
+      </div>
+
+      <div class="animacion_opacity-off">
+        <span class="number">
+          10+
+        </span>
+        <p>
+          Membros na Equipe
+        </p>
+      </div>
+
+    </section>
+
+    <!-- Section services -->
+     <section id="section-services">
+      <h1 class="animacion_opacity-off">
+        Nossos Serviços
+      </h1>
+      <h2 class="animacion_opacity-off">
+        Serviços que oferecemos a você
+      </h2>
+      <p class="more-content animacion_opacity-off">
+        Experiências que fazem com que seus clientes voltem sempre para obter mais informações sobre
+        os serviços Esforça-se ao máximo
+      </p>
+
+      <div class="container-types-services">
+        <!-- Service -->
+        <div class="type-service animacion-motionY-to-top-off">
+          <img src="src/assets/images/services/help.png" alt="">
+          <p class="name-type-service">Consultoria</p>
+          <p class="more-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur voluptas eius magni porro, accusamus.
+          </p>
+        </div>
+        <!-- Service -->
+        <div class="type-service animacion-motionY-to-top-off">
+          <img src="src/assets/images/services/direct-marketing.png" alt="">
+          <p class="name-type-service">Venda de Produto</p>
+          <p class="more-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur voluptas eius magni porro, accusamus.
+          </p>
+        </div>
+        <!-- Service -->
+        <div class="type-service animacion-motionY-to-top-off">
+          <img src="src/assets/images/services/bullhorn.png" alt="">
+          <p class="name-type-service">Marketing</p>
+          <p class="more-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur voluptas eius magni porro, accusamus.  
+          </p>
+        </div>
+        <!-- Service -->
+        <div class="type-service animacion-motionY-to-top-off">
+          <img src="src/assets/images/services/help.png" alt="">
+          <p class="name-type-service">Consultoria</p>
+          <p class="more-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur voluptas eius magni porro, accusamus.
+          </p>
+        </div>
+        <!-- Service -->
+        <div class="type-service animacion-motionY-to-top-off">
+          <img src="src/assets/images/services/direct-marketing.png" alt="">
+          <p class="name-type-service">Venda de Produto</p>
+          <p class="more-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur voluptas eius magni porro, accusamus.
+          </p>
+        </div>
+        <!-- Service -->
+        <div class="type-service animacion-motionY-to-top-off">
+          <img src="src/assets/images/services/bullhorn.png" alt="">
+          <p class="name-type-service">Marketing</p>
+          <p class="more-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur voluptas eius magni porro, accusamus. 
+          </p>
+        </div>
+      </div>
+
+
+     </section>
+    
+    <!-- Section Choose Us -->
+    <section id="section-choose-us">
+      <div class="container-content-our-qualities">
+        <h1 class="animacion_opacity-off">Porque escolher-nos</h1>
+        <h2 class="animacion_opacity-off">Garantimos a melhor solução para o para ti</h2>
+        <!-- Qualitie -->
+        <div class="our-qualities animacion_opacity-off">
+          <div class="type-qualitie">
+            <img src="src/assets/images/qualities/agreement.png" alt="">
+            <div class="about-qualitie">
+              <p class="name-type-qualitie">Amigo dos Clientes</p>
+              <p class="more-content">
+                Experiências que fazem com que seus clientes voltem para obter mais serviços Esforça-se ao máximo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Qualitie -->
+        <div class="our-qualities animacion_opacity-off">
+          <div class="type-qualitie">
+            <img src="src/assets/images/qualities/shield.png" alt="">
+            <div class="about-qualitie">
+              <p class="name-type-qualitie">Confiavél e Seguro</p>
+              <p class="more-content">
+                Experiências que fazem com que seus clientes voltem para obter mais serviços Esforça-se ao máximo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Qualitie -->
+        <div class="our-qualities animacion_opacity-off">
+          <div class="type-qualitie">
+            <img src="src/assets/images/qualities/customer-service.png" alt="">
+            <div class="about-qualitie">
+              <p class="name-type-qualitie">Suporte rápido em 48 horas por dia, troca do produto vendido</p>
+              <p class="more-content">
+                Experiências que fazem com que seus clientes voltem para obter mais serviços Esforça-se ao máximo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-images">
+        <div class="container-featured-images">
+          <div class="images single-image animacion_scale-element-off">
+            <img src="src/assets/images/qualities/about-img-5.jpg" alt="" class="img1 featured-image">
+          </div>
+          <div class="images multiple-images animacion_scale-element-off">
+            <img src="src/assets/images/qualities/about-img-4.jpg" alt="" class="img2 featured-image">
+            <img src="src/assets/images/qualities/choose-3.png" alt="" class="img3 featured-image">
+          </div>
+          <div class="container-to-open-video animacion_opacity-off">
+            <i class="fa-solid fa-play"></i>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Modal video -->
+    <div class="overlay-modal-video">
+      <div class="close-modal-video">
+        <i class="fa-solid fa-circle-xmark"></i>
+      </div>
+      <video autoplay controls loop>
+        <source src="src/assets/video/video.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <!-- Section Works or Projects -->
+    <section id="section_works">
+      <h1 class="animacion_opacity-off">
+        Nosso Portifolio
+      </h1>
+      <h2 class="animacion_opacity-off">    
+        Solução que oferecemos a você
+      </h2>
+      <p class="more-content animacion_opacity-off">
+        Experiências que fazem com que seus clientes voltem sempre para obter mais informações sobre
+        serviços Faz o melhor esforço
+      </p>
+
+      <div class="container-our-projects">
+        <!-- Project -->
+        <div class="container-project animacion_opacity-off">
+          <img src="src/assets/images/projects/portfolio-img-1.jpg" alt="">
+          <div class="background-color-transparent"></div>
+          <div class="about-projects">
+            <p class="category-project">Consultória</p>
+            <p class="name-project">
+              Plano de Consultoria Web
+            </p>
+          </div>
+        </div>
+        <!-- Project -->
+        <div class="container-project animacion_opacity-off">
+          <img src="src/assets/images/projects/portfolio-img-2.jpg" alt="">
+          <div class="background-color-transparent"></div>
+          <div class="about-projects">
+            <p class="category-project">Consultória</p>
+            <p class="name-project">
+              Plano de Consultoria Web
+            </p>
+          </div>
+        </div>
+        <!-- Project -->
+        <div class="container-project animacion_opacity-off">
+          <img src="src/assets/images/projects/portfolio-img-3.jpg" alt="">
+          <div class="background-color-transparent"></div>
+          <div class="about-projects">
+            <p class="category-project">Consultória</p>
+            <p class="name-project">
+              Plano de Consultoria Web
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Partner -->
+    <section id="section_partners">
+      <h1>Parceiros</h1>
+      <div class="container-partners">
+        <div class="item">
+          <img src="src/assets/images/partners/adidas_logo.png" alt="" class="image-partner">
+        </div>
+        <div class="item">
+          <img src="src/assets/images/partners/Gucci_logo.png" alt="" class="image-partner">
+        </div>
+        <div class="item">
+          <img src="src/assets/images/partners/lacoste-logo.png" alt="" class="image-partner">
+        </div>
+        <div class="item">
+          <img src="src/assets/images/partners/nike_logo.png" alt="" class="image-partner">
+        </div>
+        <div class="item">
+          <img src="src/assets/images/partners/Gucci_logo2.png" alt="" class="image-partner">
+        </div>      
+      </div>
+    </section>
+
+    <!-- Section our team -->
+    <section id="section-our-team">
+      <h2 class="animacion_opacity-off">Nossa Equipe</h2>
+      <p class="more-content animacion_opacity-off">
+        Grupo de Pessoas que colaboram para um Trabalho Excelente e
+        para o desenvolvimento da nossa empresa
+      </p>
+
+      <div class="container-team-members">
+        <!-- Member -->
+        <div class="container-member animacion_opacity-off">
+          <img src="src/assets/images/team/team-img-1.jpg" alt="">
+          <div class="background-color-transparent"></div>
+          <div class="about-member">
+            <p class="name-member">Tonilson Casimiro</p>
+            <p class="job-member">
+              Programador e Operador de camera
+            </p>
+            <div class="container-social-media-member">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="container-member animacion_opacity-off">
+          <img src="src/assets/images/team/team-img-2.jpg" alt="">
+          <div class="background-color-transparent"></div>
+          <div class="about-member">
+            <p class="name-member">Bawduino Cristovão</p>
+            <p class="job-member">
+              Poliglota e Escritor
+            </p>
+            <div class="container-social-media-member">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="container-member animacion_opacity-off">
+          <img src="src/assets/images/team/team-img-3.jpg" alt="">
+          <div class="background-color-transparent"></div>
+          <div class="about-member">
+            <p class="name-member">Janeth Pilartes</p>
+            <p class="job-member">
+              Programadora e Web Designer
+            </p>
+            <div class="container-social-media-member">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="container-member animacion_opacity-off">
+          <img src="src/assets/images/team/team-img-4.jpg" alt="">
+          <div class="background-color-transparent"></div>
+          <div class="about-member">
+            <p class="name-member">Domingos Caetano</p>
+            <p class="job-member">
+              Gestor da empresa
+            </p>
+            <div class="container-social-media-member">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="container-member animacion_opacity-off">
+          <img src="src/assets/images/team/team-img-5.jpg" alt="">
+          <div class="background-color-transparent"></div>
+          <div class="about-member">
+            <p class="name-member">Joana Vemba</p>
+            <p class="job-member">
+              Contabilista
+            </p>
+            <div class="container-social-media-member">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="container-member animacion_opacity-off">
+          <img src="src/assets/images/team/team-img-6.jpg" alt="">
+          <div class="background-color-transparent"></div>
+          <div class="about-member">
+            <p class="name-member">Rafael Pilartes</p>
+            <p class="job-member">
+              CEO e Programador
+            </p>
+            <div class="container-social-media-member">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="section-testimonials">
+      <h1 class="animacion_opacity-off">Depoimentos</h1>
+       <div class="carouselTestimonials owl-carousel owl-theme">
+        <div class="item">
+          <div class="testimonial">
+            <div class="container-image-author-testimonial">
+              <img src="src/assets/images/testimonials/team-img-2.jpg" alt="" class="image-author">
+            </div>
+            <div class="content-testimonial">
+              <div class="apostrophes">
+                <img src="src/assets/images/testimonials/quote.png" alt="" class="apostrophes">
+              </div>
+              <p class="content">
+                <i>
+                  Sinceramente eu amei imenso esse web site, as cores estão perfeitas,
+                  e o codigo está extremamente organizado, parabéns Casimiro.
+                </i>
+              </p>
+              <div class="name-author-testimonial">
+                <p>Rafael Pilartes</p> 
+                <div class="row-gray"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testimonial">
+            <div class="container-image-author-testimonial">
+              <img src="src/assets/images/testimonials/team-img-3.jpg" alt="" class="image-author">
+            </div>
+            <div class="content-testimonial">
+              <div class="apostrophes">
+                <img src="src/assets/images/testimonials/quote.png" alt="" class="apostrophes">
+              </div>
+              <p class="content">
+                <i>
+                  Tchossy Solucions é uma empresa com execelentes programadores, e este
+                  site faz parte de muitos outros grandes projectos, força Tchossy.
+                </i>
+              </p>
+              <div class="name-author-testimonial">
+                <p>Joana Vemba</p> 
+                <div class="row-gray"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="testimonial">
+            <div class="container-image-author-testimonial">
+              <img src="src/assets/images/testimonials/team-img-6.jpg" alt="" class="image-author">
+            </div>
+            <div class="content-testimonial">
+              <div class="apostrophes">
+                <img src="src/assets/images/testimonials/quote.png" alt="" class="apostrophes">
+              </div>
+              <p class="content">
+                <i>
+                  É uma grande honra fechar negocios com o Tchossy Solucions, eles 
+                  têm as melhores propostas de web sites, aplicativos e outros projectos relacionado
+                  tecnologia de comunicação e informação.
+                </i>
+              </p>
+              <div class="name-author-testimonial">
+                <p>Raimundo Kilende</p> 
+                <div class="row-gray"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+     
+    </section>
+
+    <!-- Section Contacts -->
+     <section id="section-contacts">
+
+      <div>
+        <div class="more-informacions-about-contact">
+          <h1 class="animacion_opacity-off">Contactos</h1>
+          <h2 class="animacion_opacity-off">Entrar em contacto</h2>
+          <p class="more-content animacion_opacity-off">
+            Sinta-se à vontade para entrar em contato conosco. Estamos sempre 
+            aberto a discutir novos projetos, ideias criativas ou oportunidades
+            para fazer parte das nossas visões de sucesso na vida.
+          </p>
+          <div class="container-informacion-to-contact animacion_opacity-off">
+            <div class="container-img">
+              <img src="src/assets/images/contacts/telephone.png" alt="" width="25px">
+            </div>
+            <div class="information-to-contact">
+              <p class="type">Telefone</p>
+              <p class="contact">+244 924182273</p>
+            </div>
+          </div>
+          <div class="container-informacion-to-contact animacion_opacity-off">
+            <div class="container-img">
+              <img src="src/assets/images/contacts/envelope.png" alt="" width="25px">
+            </div>
+            <div class="information-to-contact">
+              <p class="type">Email</p>
+              <p class="contact">empresa222@gmail.com</p>
+            </div>
+          </div>
+          <div class="container-informacion-to-contact animacion_opacity-off">
+            <div class="container-img">
+              <img src="src/assets/images/contacts/location.png" alt="" width="25px">
+            </div>
+            <div class="information-to-contact">
+              <p class="type">Localização</p>
+              <p class="contact">Mundo Verde a direita do Avenida</p>
+            </div>
+          </div>
+        </div>
+  
+        <form class="form-contacts animacion_opacity-off">
+          <p>Contate-nos</p>
+          <input type="text" placeholder="Nome">
+          <input type="number" placeholder="Telefone">
+          <input type="email" placeholder="Email">
+          <input type="text" placeholder="Assunto">
+          <textarea name="" id="" placeholder="Mensagem">
+          </textarea>
+          <input type="submit" value="Enviar" id="input-submit">
+        </form>
+      </div>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.456849355203!2d13.15960987399732!3d-8.929979891721732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a518ac7e487a31d%3A0x991ba24e405a00f0!2sAngomart%20-%20Benfica!5e0!3m2!1spt-BR!2sao!4v1685037833487!5m2!1spt-BR!2sao" width="100%" height="450" style="border:0; margin-top: 3rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="iframe">
+      </iframe>
+
+     </section>
+
+    <!-- Buton back to top -->
+    <a href="#"  class="container-icon-back-to-top">
+      <span class="">-</span>
+      <i class="fa-sharp fa-solid fa-angle-up"></i>
+    </a>
+ </main>
+
+ <footer>
+
+  <div class="container-contents animacion_opacity-off">
+    <div class="content">
+      <h1 id="logo-name-in-footer">Logo</h1>       
+      <p class="content-about-us">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis inventore fugiat vel soluta, deleniti amet assumenda asperiores pariatur recusandae voluptatem earum quos et tenetur porro eum nobis quas esse? Ratione?
+      </p>
+      <div class="social-medias">
+        <a href="#">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="content">
+      <h1>Serviços</h1>
+      <a href="#">Venda de Produtos</a>
+      <a href="#">Marketing</a>
+      <a href="#">Filmagens</a>
+      <a href="#">Fotografia</a>
+      <a href="#">Protocolo</a>
+    </div>
+
+    <div class="content">
+      <h1>Links uteis</h1>
+      <a href="#section-about-us">Sobre Nós</a>
+      <a href="#section_works">Portifólios</a>
+      <a href="#section-our-team">Nossa Equipe</a>
+      <a href="#section-choose-us">Qualidades</a>
+      <a href="#section-contacts">Contatos</a>
+    </div>
+
+    <div class="content">
+      <h1>Entrar em contato</h1>
+      <div class="information-to-contact">
+        <p class="type">Telefone:</p>
+        <p class="contact">+244 924182273</p>
+      </div>
+      <div class="information-to-contact">
+        <p class="type">Email:</p>
+        <p class="contact">empresa222@gmail.com</p>
+      </div>
+      <div class="information-to-contact">
+        <p class="type">Localização:</p>
+        <p class="contact">Mundo Verde a direita do Avenida</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row-gray"></div>
+  <p class="reference-tchossy animacion_opacity-off">Esse site foi desenvolvido pela empresa <span class="tchossy">Tchossy Solucions</span></p>
+
+ </footer>
+
+
+
+ <!-- Scripts -->
+ <!-- Indicator -->
+ <script src="src/public/js/indicator.js"></script>
+ <!-- Header -->
+ <script src="src/public/js/header.js"></script>
+ <!-- Loading -->
+ <script src="src/public/js/loader.js"></script>
+ <!-- button back to top -->
+ <script src="src/public/js/btnBackToTop.js"></script>
+ <!-- Transition images in header -->
+ <script src="src/public/js/transition_images_header.js"></script>
+ <!-- Animacion scroll -->
+ <script src="src/public/js/observer_animacion_scroll.js"></script>
+ <!-- Modal video -->
+ <script src="src/public/js/modal_video.js"></script>
+ <!-- script jquery -->
+ <script src="src/bibliotecas/jquery/jquery.min.js"></script>
+ <!-- Script carousel -->
+ <script src="src/bibliotecas/owlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+ <script src="src/public/js/carousel_testimonials.js"></script>
+
+</body>
+</html>

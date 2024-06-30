@@ -1,0 +1,120 @@
+
+section#section-our-team{
+
+}
+
+section#section-our-team h2{
+ text-align: center;
+ margin-bottom: 1rem;
+ color: var(--color-primary);
+}
+
+section#section-our-team > p{
+ text-align: center;
+ margin-bottom: 2rem;
+}
+
+
+.container-team-members{
+ max-width: 1200px;
+ margin: auto ;
+ display: flex;
+ justify-content: center;
+ gap: 2rem;
+ flex-wrap: wrap;
+ align-items: baseline;
+ position: relative;
+}
+
+section#section-our-team .container-member{
+ width: 350px;
+ height: 420px;
+ position: relative;
+ overflow: hidden;
+}
+
+@media(max-width: 500px){
+ section#section-our-team .container-member{
+  width: 100%;
+ }
+}
+
+
+section#section-our-team .container-member img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+
+
+
+section#section-our-team .background-color-transparent{
+ background: linear-gradient(rgba(22, 22, 22, 0.06) 0%, #9f0036 100%);
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ opacity: 0.85;
+ width: 100%;
+ height: 0%;
+ transition: all 0.3s ease-out 0s;
+ z-index: 2;
+}
+
+section#section-our-team .container-member:hover .background-color-transparent{
+ height: 100%;
+}
+
+section#section-our-team .about-member{
+ position: absolute;
+ left: 0;
+ bottom: -100px;
+ font-family: Poppins-Medium;
+ color: white;
+ transition: all .5s;
+ z-index: 3;
+ width: 100%;
+ margin: auto;
+}
+
+section#section-our-team .container-member:hover .about-member{
+ bottom: 4rem;
+}
+
+section#section-our-team .about-member p{
+ text-align: center;
+}
+
+section#section-our-team .about-member .name-member{
+  font-size: 1.1em;
+}
+
+section#section-our-team .about-member .job-member{
+ font-size: .8em;
+}
+
+
+/* Redes sociais */
+.container-social-media-member{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: .4rem;
+ margin-top: .7rem;
+}
+
+.container-social-media-member a{
+ text-decoration: none;
+ color: white;
+}
+
+.container-social-media-member i{
+ padding: .5rem .7rem;
+ font-size: .8em;
+ background-color: rgba(0, 0, 0, 0.464);
+ transition: all .3s;
+ border-radius: 5px;
+}
+
+.container-social-media-member i:hover{
+ background-color: var(--color-primary);
+}

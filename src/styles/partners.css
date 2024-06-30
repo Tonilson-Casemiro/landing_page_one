@@ -1,0 +1,38 @@
+
+
+section#section_partners{
+ min-height: auto;
+ background-color: var(--color-gray-bg-section);
+ padding-top: 4rem;
+ padding-bottom: 4rem;
+ margin: 6rem 0 0 0;
+}
+
+section#section_partners h1{
+ text-align: center;
+ margin-bottom: 2rem;
+}
+
+.container-partners{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ gap: 2.5rem;
+}
+
+@media(max-width: 800px){
+ .container-partners{
+  flex-direction: column;
+ }
+}
+
+.image-partner{
+ width: 100px;
+ height: 80px;
+ transition: all .3s;
+ filter: contrast(0%);
+}
+
+.image-partner:hover{
+ filter: contrast(50%);
+}

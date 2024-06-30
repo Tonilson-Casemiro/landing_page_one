@@ -1,0 +1,172 @@
+
+
+section#section-contacts{
+ 
+
+}
+
+section#section-contacts > div{
+ display: flex;
+ gap: 3rem;
+ justify-content: center;
+ max-width: 1200px;
+ margin: auto;
+}
+
+@media (max-width: 1200px){
+ section#section-contacts > div{
+  flex-direction: column;
+  align-items: center;
+ }
+}
+
+
+.more-informacions-about-contact{
+ width: 50%;
+}
+
+@media (max-width: 1200px){
+ .more-informacions-about-contact{
+  width: 75%;
+ }
+}
+
+@media (max-width: 800px){
+ .more-informacions-about-contact{
+  width: 90%;
+ }
+}
+
+@media (max-width: 500px){
+ .more-informacions-about-contact{
+  width: 100%;
+ }
+}
+
+.more-informacions-about-contact h2{
+ margin-bottom: 1rem;
+}
+
+/* Informacions to contact */
+
+.container-informacion-to-contact{
+ display: flex;
+ gap: 1rem;
+ margin-top: 2rem;
+}
+
+.container-informacion-to-contact .container-img{
+ padding: 1rem;
+ position: relative;
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ border: 1px solid var(--color-primary);
+ position: relative;
+ 
+}
+
+.container-informacion-to-contact .container-img img{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ width: 40%;
+ height: 40%;
+ 
+ 
+ 
+}
+
+
+.container-informacion-to-contact .information-to-contact{
+ font-family: Poppins-Medium;
+}
+
+.container-informacion-to-contact .information-to-contact .type{
+ font-size: .9em;
+}
+
+.container-informacion-to-contact .information-to-contact .contact{
+ font-size: .8em;
+ color: var(--color-more-content);
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Formulário */
+
+.form-contacts{
+ width: 50%;
+ border-radius: 1rem;
+}
+
+@media (max-width: 1200px){
+ .form-contacts{
+  width: 75%;
+ }
+}
+
+@media (max-width: 800px){
+ .form-contacts{
+  width: 90%;
+ }
+}
+
+@media (max-width: 500px){
+ .form-contacts{
+  width: 100%;
+ }
+}
+
+
+.form-contacts{
+ background-color: var(--color-gray-bg-section);
+ padding: 2rem;
+ font-family: Poppins-Medium;
+ /* width: 500px; */
+}
+
+
+.form-contacts input{
+ border: none;
+ outline: none;
+ display: block;
+ width: 100%;
+ margin-top: 1rem;
+ padding: 1.2rem;
+ background-color: white;
+ font-family: Poppins-Medium;
+ border-radius: 10px;
+}
+
+.form-contacts textarea{
+ border: none;
+ outline: none;
+ display: block;
+ width: 100%;
+ margin-top: 1rem;
+ padding: 1rem;
+ background-color: white;
+ font-family: Poppins-Medium;
+}
+
+.form-contacts #input-submit{
+ background-color: var(--color-primary);
+ color: white;
+ border-radius: 5rem;
+ cursor: pointer;
+ transition: all .3s;
+}
+
+.form-contacts #input-submit:hover{
+ background-color: var(--color-secondary);
+}

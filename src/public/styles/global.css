@@ -1,0 +1,120 @@
+
+/* Reset */
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+
+
+
+html{
+ scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+/* Variavéis de cores */
+:root{
+ /* --color-primary: #db7137; */
+ --color-primary: #EF0454;
+ --color-secondary:#252525;
+ --color-more-content: #6a6a6a;
+ --color-gray-bg-section: #f9f9f9;
+}
+
+
+
+
+
+
+
+/* Fontes de Letras*/
+
+
+@font-face{
+ font-family: Poppins-Bold;
+ src: url(../../bibliotecas/google-fonts/Poppins/Poppins-Bold.ttf) format(truetype);
+}
+
+
+@font-face{
+ font-family: Poppins-Medium;
+ src: url(../../bibliotecas/google-fonts/Poppins/Poppins-Medium.ttf) format(truetype);
+}
+
+
+
+
+
+
+
+
+
+
+/* scroll - body html */
+body::-webkit-scrollbar{
+ width: .6rem;
+ background-color: rgba(211, 211, 211, 0.781);
+}
+
+body::-webkit-scrollbar-thumb{
+ border-radius: 5rem;
+ background-color: var(--color-primary);
+} 
+
+
+
+
+
+
+
+
+section{
+ min-height: 100vh;
+ padding: 8rem 1rem 1rem 1rem ;
+ position: relative;
+}
+
+
+
+section h1{
+ font-family: Poppins-Medium;
+ font-size: .9em;
+ color: var(--color-primary);
+}
+
+section h2{
+ font-size: 2.8em;
+ font-weight: bold;
+ font-family:  Poppins-bold;
+ line-height: 1.2em;
+}
+
+@media(max-width: 600px){
+ section h2{
+  font-size: 1.5em;
+ }
+}
+
+section p.more-content{
+ font-size: .9em;
+ color: var(--color-more-content);
+ /* font-weight: 100; */
+ line-height: 1.6em;
+ font-family: Poppins-Medium;
+ font-weight: 400;
+}
+
+
+@media(max-width: 600px){
+ section p.more-content{
+  font-size: .8em;
+ }
+}

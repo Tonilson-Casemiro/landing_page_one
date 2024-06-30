@@ -1,0 +1,119 @@
+
+
+
+/* esquerda para direita */
+.animacion-motionX-to-left-off{ 
+ opacity: 0;
+ filter: blur(15px);
+ transform: translateX(100%);
+ transition: all 1s;
+}
+
+/* direita para esquerda */
+.animacion-motionX-to-right-off{ 
+ opacity: 0;
+ filter: blur(15px);
+ transform: translateX(-100%);
+ transition: all 1s;
+}
+
+/* Start animacion  movimento no Eixo Y */
+.animacion-motionX-on{
+ opacity: 1;
+ filter: blur(0);
+ transform: translateX(0);
+ transition: all 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Baixo para cima */
+.animacion-motionY-to-top-off{ 
+ opacity: 0;
+ filter: blur(10px);
+ transform: translateY(100%);
+ transition: all 10s;
+}
+
+
+/* Start animacion movimento no Eixo Y */
+.animacion-motionY-on{
+ opacity: 1;
+ filter: blur(0);
+ transform: translateY(0);
+ transition: all 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animação da escala - off */
+.animacion_scale-element-off{
+ transform: scale(0);
+ filter: blur(8px);
+ transition: all .7s;
+}
+
+/* Animação da escala - on */
+.animacion_scale-element-on{
+ transform: scale(1);
+ filter: blur(0);
+ transition: all .7s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animação da opacidade */
+.animacion_opacity-off{
+ opacity: 0;
+ filter: blur(15px);
+ transition: all 1s;
+}
+
+
+.animacion_opacity-on{
+ opacity: 1;
+ filter: blur(0);
+ transition: all 1s;
+}
+
+
+
+

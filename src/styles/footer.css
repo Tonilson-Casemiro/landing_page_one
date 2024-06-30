@@ -1,0 +1,153 @@
+
+footer{
+ background-color: rgb(22, 22, 22);
+ font-family: Poppins-Medium;
+}
+
+footer h1{
+ color: white;
+ font-family: Poppins-Medium;
+ font-size: 1em;
+ margin-bottom: 1.5rem;
+ font-weight: 400;
+}
+
+footer .container-contents{
+ display: flex;
+ gap: 2.5rem;
+ justify-content: space-between;
+ padding: 3.5rem 3rem;
+ 
+}
+
+@media(max-width: 1200px){
+ footer .container-contents{
+  flex-wrap: wrap;
+ }
+}
+
+@media(max-width: 700px){
+ footer .container-contents{
+  flex-direction: column;
+ }
+}
+
+@media(max-width: 400px){
+ footer .container-contents{
+  padding: 3.5rem 2rem;
+ }
+ footer .container-contents{
+  flex-direction: column;
+ }
+}
+
+footer h1#logo-name-in-footer{
+ text-transform: uppercase;
+}
+
+footer .content-about-us{
+ max-width: 370px;
+ line-height: 1.8em;
+ font-size: .9em;
+}
+
+@media(max-width: 500px){
+ footer .content-about-us{
+  font-size: .8em;
+ }
+}
+
+/* Social medias */
+.social-medias{
+ display: flex;
+ gap: 1.8rem;
+ margin-top: 1rem;
+ margin-left: .5rem;
+}
+
+.social-medias a{
+ text-decoration: none;
+}
+
+.social-medias i{
+ color: white;
+ font-weight: 400;
+ font-size: 1em;
+ transition: all .3s;
+ transform: translateY(0);
+}
+
+.social-medias a:hover i{
+ color: white;
+ font-weight: 400;
+ transform: translateY(-7px);
+}
+
+footer p{
+ color: var(--color-more-content);
+ font-size: .9em;
+ font-weight: 400;
+ font-weight: 100px;
+}
+
+@media(max-width: 500px){
+ footer p{
+  font-size: .8em;
+ }
+}
+
+footer .information-to-contact{
+ margin-bottom: .5rem;
+ font-weight: 400;
+}
+
+footer .information-to-contact .type{
+ color: white;
+ font-size: .9em;
+}
+
+@media(max-width: 500px){
+ footer .information-to-contact .type{
+  font-size: .8em;
+ }
+}
+
+footer .information-to-contact .contact{
+
+}
+
+footer a{
+ text-decoration: none;
+ color: var(--color-more-content);
+ margin-bottom: 1rem;
+ font-size: .9em;
+ transition: all .3s;
+ display: block;
+}
+
+@media(max-width: 500px){
+ footer a{
+  font-size: .8em;
+ }
+}
+
+footer a:hover{
+ color: white;
+}
+
+
+footer .row-gray{
+ width: 100%;
+ height: 1px;
+ background-color: var(--color-more-content);
+}
+
+.reference-tchossy{
+ text-align: center;
+ padding: .8rem 0;
+ font-size: .8em;
+}
+
+.tchossy{
+ color: white;
+}

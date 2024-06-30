@@ -1,0 +1,42 @@
+/* icone subir top */
+
+.container-icon-back-to-top{
+  background-color: var(--color-primary);
+  width: 40px;
+  height: 40px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  /* clip-path: circle(); */
+  text-decoration: none;
+  z-index: 500;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all .3s;
+  border-radius: 5px;
+
+}
+
+.container-icon-back-to-top:hover{
+  background-color: var(--color-secondary);
+}
+
+.container-icon-back-to-top i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all .3s;
+  font-size: 1em;
+  color: white;
+}
+
+.showBackToTop{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
